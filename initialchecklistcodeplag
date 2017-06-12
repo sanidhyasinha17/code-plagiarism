@@ -1,0 +1,6 @@
+- [ ] learn about wordtovec using gensim
+- [ ] find string matching algorithms
+- [ ] choose the most efficient ones 
+- [ ] learn and implement kmp and finite automata
+- [ ] learn rabin karp 
+- [ ] analyse why hash implementation is better 

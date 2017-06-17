@@ -17,8 +17,8 @@ def KMPSearch(pattern, skepText):
             j += 1
 
         if j == M:
-            print
-            "Found pattern at index " + str(i - j)
+            print (i-j)
+            
             j = lps[j - 1]
 
 

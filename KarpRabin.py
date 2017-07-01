@@ -1,4 +1,4 @@
-prime = 7
+prime = 3
 
 
 def Search(text, pattern):

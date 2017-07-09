@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel= "stylesheet" type= "text/css" href="{{ url_for('static', filename='Static/template.css') }}" />
+	</head>
+
+	<body>
+
+
+
+		<form method = "post">
+
+			<h1>Code Plagiarism</h1>
+
+			<p>Select file to check<br>
+			<input class = "input" type="file" name="datafile">
+			</p>
+
+			<p>Select file to compare with<br>
+			<input class = "input" type="file" name="datafile">
+			</p>
+
+			<div>
+			<input type="submit" value="Compare">
+			</div>
+
+		</form>
+
+
+	</body>
+</html>
